@@ -1,0 +1,367 @@
+[
+  {
+    "num": 1,
+    "q_id": "Q1",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division A – Case Scenario / Caselet MCQs",
+    "q_type": "case_scenario_mcq",
+    "section": "Working Capital – Gross Working Capital and Ratios (Case Scenario)",
+    "title": "- (i) What will be the gross working capital of the company on cash cost basis?",
+    "text": "\n\n- (i) What will be the gross working capital of the company on cash cost basis?\n  - (A) ` 16,00,000\n  - (B) ` 17,20,000\n  - (C) ` 18,30,000\n  - (D) ` 19,60,000\n- (ii) PPW Ltd wants to compute its working capital requirement on a cash cost basis (ignoring WIP), assuming a 15% margin. Based on the given financial data, what will be the working capital requirement?\n  - (A) ` 16,33,000\n  - (B) ` 10,20,000\n  - (C) ` 20,40,000\n  - (D) ` 9,60,000\n- (iii) Excluding the 15% margin, what is the Current Ratio of PPW Ltd?\n  - (A) 4.46 : 1\n  - (B) 3.8 : 1\n  - (C) 2.0 : 1\n  - (D) 2.2 : 1\n\n- (iv) What is the Quick Ratio of PPW Ltd (excluding the 15% margin)?\n  - (A) 2.92 : 1\n  - (B) 1.05 : 1\n  - (C) 2.59 : 1\n  - (D) 1.85 : 1\n- (v) What is the Working Capital Turnover Ratio based on cash cost of sales?\n  - (A) 4 times\n  - (B) 3.38 times\n  - (C) 6.2 times\n  - (D) 2.7 times",
+    "options": [
+      "(A) ` 16,00,000\n  - (B) ` 17,20,000\n  - (C) ` 18,30,000\n  - (D) ` 19,60,000\n- (ii) PPW Ltd wants to compute its working capital requirement on a cash cost basis (ignoring WIP), assuming a 15% margin. Based on the given financial data, what will be the working capital requirement?\n  - (A) ` 16,33,000\n  - (B) ` 10,20,000\n  - (C) ` 20,40,000\n  - (D) ` 9,60,000\n- (iii) Excluding the 15% margin, what is the Current Ratio of PPW Ltd?\n  - (A) 4.46 : 1\n  - (B) 3.8 : 1\n  - (C) 2.0 : 1\n  - (D) 2.2 : 1\n\n- (iv) What is the Quick Ratio of PPW Ltd (excluding the 15% margin)?\n  - (A) 2.92 : 1\n  - (B) 1.05 : 1\n  - (C) 2.59 : 1\n  - (D) 1.85 : 1\n- (v) What is the Working Capital Turnover Ratio based on cash cost of sales?\n  - (A) 4 times\n  - (B) 3.38 times\n  - (C) 6.2 times\n  - (D) 2.7 times"
+    ],
+    "sub_questions": [
+      {
+        "label": "(i)",
+        "text": "What will be the gross working capital of the company on cash cost basis?\n  -",
+        "options": [
+          "(A) ` 16,00,000\n  - (B) ` 17,20,000\n  - (C) ` 18,30,000\n  - (D) ` 19,60,000\n- (ii) PPW Ltd wants to compute its working capital requirement on a cash cost basis (ignoring WIP), assuming a 15% margin. Based on the given financial data, what will be the working capital requirement?\n  - (A) ` 16,33,000\n  - (B) ` 10,20,000\n  - (C) ` 20,40,000\n  - (D) ` 9,60,000\n- (iii) Excluding the 15% margin, what is the Current Ratio of PPW Ltd?\n  - (A) 4.46 : 1\n  - (B) 3.8 : 1\n  - (C) 2.0 : 1\n  - (D) 2.2 : 1\n\n- (iv) What is the Quick Ratio of PPW Ltd (excluding the 15% margin)?\n  - (A) 2.92 : 1\n  - (B) 1.05 : 1\n  - (C) 2.59 : 1\n  - (D) 1.85 : 1\n- (v) What is the Working Capital Turnover Ratio based on cash cost of sales?\n  - (A) 4 times\n  - (B) 3.38 times\n  - (C) 6.2 times\n  - (D) 2.7 times"
+        ]
+      }
+    ],
+    "tables": [],
+    "case_scenario": "6A: FINANCIAL MANAGEMENT\n\n#### ****"
+  },
+  {
+    "num": 2,
+    "q_id": "Q2",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division A – Case Scenario / Caselet MCQs",
+    "q_type": "caselet_mcq",
+    "section": "Investment Decision – NPV and Profitability Index (Caselet)",
+    "title": "Please consider the following data:",
+    "text": "Please consider the following data:\n\n\n\nGiven that NPV = PV – I and PI = PV / I, where PV is the present value of future net cash inflows and I is the initial investment on a project. Based on the data furnished above, which one of the following statements is correct?\n\n- (A) Project A is recommended based on PI criterion\n- (B) Project B is recommended based on NPV criterion\n- (C) Project C is recommended based on PI criterion\n- (D) Project A is recommended based on NPV criterion",
+    "options": [
+      "(A) Project A is recommended based on PI criterion\n- (B) Project B is recommended based on NPV criterion\n- (C) Project C is recommended based on PI criterion\n- (D) Project A is recommended based on NPV criterion"
+    ],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Project",
+          "NPV (`<br>'000)",
+          "I (`<br>'000)"
+        ],
+        "rows": [
+          [
+            "A",
+            "15",
+            "60"
+          ],
+          [
+            "B",
+            "20",
+            "100"
+          ],
+          [
+            "C",
+            "25",
+            "150"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 3,
+    "q_id": "Q3",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division A – Case Scenario / Caselet MCQs",
+    "q_type": "caselet_mcq",
+    "section": "Ratio Analysis – Du Pont Analysis (Caselet)",
+    "title": "As per extended Du Pont analysis:",
+    "text": "As per extended Du Pont analysis:\n\n$$ROE = NPM \\times TATR \\times x/y$$\n\nWhere, ROE = Return on Equity\n\nNPM = Net Profit Margin\n\nTATR = Total Asset Turnover Ratio\n\nHere, x/y represents:\n\n- (A) Debt / Equity\n- (B) Total Assets / Sales\n- (C) Total Assets / Equity\n- (D) Equity / Debt",
+    "options": [
+      "(A) Debt / Equity\n- (B) Total Assets / Sales\n- (C) Total Assets / Equity\n- (D) Equity / Debt"
+    ],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 4,
+    "q_id": "Q4",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Leverage – Degree of Financial Leverage (Caselet)",
+    "title": "measures the ability of business to meet the interest obligations.",
+    "text": "measures the ability of business to meet the interest obligations.",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 5,
+    "q_id": "Q5",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Ratio Analysis – Financial Soundness Report",
+    "title": "measures the ability of business to pay the preference dividend.",
+    "text": "measures the ability of business to pay the preference dividend.",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 6,
+    "q_id": "Q6",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Cost of Capital – WACC Calculation",
+    "title": "shows how many times the cash flow before interest and taxes covers all fixed financing charges.",
+    "text": "shows how many times the cash flow before interest and taxes covers all fixed financing charges.\n\nThe Chief Executive officer asked the Statutory auditor to prepare a reply letter quoting the proper ratio that covers the issues raised by the bank in this format –\n\n\n\nClosing fixed assets after providing 20% Depreciation constituted 60% of the total assets. Current assets comprises Inventories, Advance Tax, Prepaid Insurance and Receivables. The receivables (one-fifth of the current assets) to sales ratio revealed a credit period of 2 months. There were no cash sales. Operating profit margin being 15%. Also find out the ratios that",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 7,
+    "q_id": "Q7",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Capital Structure – MM Model with Taxes",
+    "title": "J Ltd. is an all equity financed company with a market value of ` 25,00,000 and cost of equity (Ke) 21%. The company wan",
+    "text": "J Ltd. is an all equity financed company with a market value of ` 25,00,000 and cost of equity (Ke) 21%. The company wants to buyback equity shares worth ` 5,00,000 by issuing and raising 15% perpetual debt of the same amount. Rate of tax may be taken as 30%. After the capital restructuring and applying MM Model (with taxes), you are required to calculate:\n  - (i) Market value of J Ltd.\n  - (ii) Cost of Equity (Ke)\n  - (iii) Weighted average cost of capital (using market weights) and comment on it.\n\n#### **Leverage**\n\n8. Following Balance Sheet and Income Statement have been obtained from the books of accounts of Pinaca Pvt. Ltd.\n\n**Balance Sheet as on March 31st 2025**\n\n\n\n#### **Income Statement for the year ending March 31st 2025**\n\n\n\nThe tax rate applicable to the company is 35 percent.\n\n- (i) DETERMINE the degree of operating, financial and combined leverages at the current sales level, if all operating expenses, other than depreciation, are variable costs.\n- (ii) If total assets remain at the same level, but sales (i) increase by 20 percent and (ii) decrease by 20 percent, COMPUTE the earnings per share at the new sales level?\n\n#### **Investment Decision**\n\n9. ABC Manufacturing Ltd is a mid–sized engineering and fabrication company that supplies precision components to the automobile and heavy machinery sectors. In order to maintain competitiveness and \n\nexpand its market share, the company has proposed a new capital investment project involving the purchase and installation of advanced Computer Numerical Control (CNC) machines and automated assembly lines.\n\nThe estimated cost of the project is to be financed partly through internal accruals and largely through term loans from XYZ Bank. ABC Manufacturing has approached the bank requesting project financing of the initial outlay, citing strong growth potential in demand for precisionengineered products over the next decade.\n\n#### **Financial Projections Provided by ABC Manufacturing Ltd.**\n\nThe company's feasibility report outlines the following:\n\n- The simple payback period is estimated at 5 years, assuming cumulative cash inflows cover the initial investment within that timeframe without considering the time value of money.\n- The discounted payback period is calculated at 7 years, after discounting projected cash inflows at the weighted average cost of capital (WACC).\n- The project's Modified Internal Rate of Return (MIRR) is projected at 10.9%, which is much lower than the incremental borrowing rate.\n- Terminal Value of the annual cash inflows reinvested at the rate of 10% is ` 11,43,589.\n- Cash inflows are expected to be received equally and steadily at the end of every year over the life of the assets. However, the same Cash inflows are expected to be received even after the simple payback period due to efficiency gains, market expansion, and economies of scale.\n\n(**Note:** Round off Initial investment to nearest Lakhs).\n\n#### **Management's Position**\n\nABC Manufacturing argues that:",
+    "options": [],
+    "sub_questions": [
+      {
+        "label": "(i)",
+        "text": "Market value of J Ltd.\n  - (ii) Cost of Equity (Ke)\n  - (iii) Weighted average cost of capital (using market weights) and comment on it.\n\n#### **Leverage**\n\n8. Following Balance Sheet and Income Statement have been obtained from the books of accounts of Pinaca Pvt. Ltd.\n\n**Balance Sheet as on March 31st 2025**\n\n#### **Income Statement for the year ending March 31st 2025**\n\nThe tax rate applicable to the company is 35 percent.\n\n- (i) DETERMINE the degree of operating, financial and combined leverages at the current sales level, if all operating expenses, other than depreciation, are variable costs.\n- (ii) If total assets remain at the same level, but sales (i) increase by 20 percent and (ii) decrease by 20 percent, COMPUTE the earnings per share at the new sales level?\n\n#### **Investment Decision**\n\n9. ABC Manufacturing Ltd is a mid–sized engineering and fabrication company that supplies precision components to the automobile and heavy machinery sectors. In order to maintain competitiveness and \n\nexpand its market share, the company has proposed a new capital investment project involving the purchase and installation of advanced Computer Numerical Control (CNC) machines and automated assembly lines.\n\nThe estimated cost of the project is to be financed partly through internal accruals and largely through term loans from XYZ Bank. ABC Manufacturing has approached the bank requesting project financing of the initial outlay, citing strong growth potential in demand for precisionengineered products over the next decade.\n\n#### **Financial Projections Provided by ABC Manufacturing Ltd.**\n\nThe company's feasibility report outlines the following:\n\n- The simple payback period is estimated at 5 years, assuming cumulative cash inflows cover the initial investment within that timeframe without considering the time value of money.\n- The discounted payback period is calculated at 7 years, after discounting projected cash inflows at the weighted average cost of capital (WACC).\n- The project's Modified Internal Rate of Return (MIRR) is projected at 10.9%, which is much lower than the incremental borrowing rate.\n- Terminal Value of the annual cash inflows reinvested at the rate of 10% is ` 11,43,589.\n- Cash inflows are expected to be received equally and steadily at the end of every year over the life of the assets. However, the same Cash inflows are expected to be received even after the simple payback period due to efficiency gains, market expansion, and economies of scale.\n\n(**Note:** Round off Initial investment to nearest Lakhs).\n\n#### **Management's Position**\n\nABC Manufacturing argues that:",
+        "options": []
+      }
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Liabilities",
+          "Amount<br>(`)",
+          "Assets",
+          "Amount<br>(`)"
+        ],
+        "rows": [
+          [
+            "Equity Capital (` 10<br>per share)",
+            "80,00,000",
+            "Net Fixed Assets",
+            "1,00,00,000"
+          ],
+          [
+            "10% Debt",
+            "60,00,000",
+            "Current Assets",
+            "90,00,000"
+          ],
+          [
+            "Retained Earnings",
+            "35,00,000",
+            "",
+            ""
+          ],
+          [
+            "Current Liabilities",
+            "15,00,000",
+            "",
+            ""
+          ],
+          [
+            "",
+            "1,90,00,000",
+            "",
+            "1,90,00,000"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "Particulars",
+          "Amount (`)"
+        ],
+        "rows": [
+          [
+            "Sales",
+            "34,00,000"
+          ],
+          [
+            "Less:<br>`<br>Operating<br>expenses<br>(including<br>6,00,000<br>depreciation)",
+            "(12,00,000)"
+          ],
+          [
+            "EBIT",
+            "22,00,000"
+          ],
+          [
+            "Less: Interest",
+            "(6,00,000)"
+          ],
+          [
+            "Earnings before tax",
+            "16,00,000"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 8,
+    "q_id": "Q8",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Leverage – Operating, Financial and Combined Leverage + EPS",
+    "title": "Following Balance Sheet and Income Statement have been obtained from the books of accounts of Pinaca Pvt. Ltd.",
+    "text": "Following Balance Sheet and Income Statement have been obtained from the books of accounts of Pinaca Pvt. Ltd.\n\n**Balance Sheet as on March 31st 2025**\n\n\n\n#### **Income Statement for the year ending March 31st 2025**\n\n\n\nThe tax rate applicable to the company is 35 percent.\n\n- (i) DETERMINE the degree of operating, financial and combined leverages at the current sales level, if all operating expenses, other than depreciation, are variable costs.\n- (ii) If total assets remain at the same level, but sales (i) increase by 20 percent and (ii) decrease by 20 percent, COMPUTE the earnings per share at the new sales level?\n\n#### **Investment Decision**",
+    "options": [],
+    "sub_questions": [
+      {
+        "label": "(i)",
+        "text": "DETERMINE the degree of operating, financial and combined leverages at the current sales level, if all operating expenses, other than depreciation, are variable costs.\n- (ii) If total assets remain at the same level, but sales (i) increase by 20 percent and (ii) decrease by 20 percent, COMPUTE the earnings per share at the new sales level?\n\n#### **Investment Decision**",
+        "options": []
+      }
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Liabilities",
+          "Amount<br>(`)",
+          "Assets",
+          "Amount<br>(`)"
+        ],
+        "rows": [
+          [
+            "Equity Capital (` 10<br>per share)",
+            "80,00,000",
+            "Net Fixed Assets",
+            "1,00,00,000"
+          ],
+          [
+            "10% Debt",
+            "60,00,000",
+            "Current Assets",
+            "90,00,000"
+          ],
+          [
+            "Retained Earnings",
+            "35,00,000",
+            "",
+            ""
+          ],
+          [
+            "Current Liabilities",
+            "15,00,000",
+            "",
+            ""
+          ],
+          [
+            "",
+            "1,90,00,000",
+            "",
+            "1,90,00,000"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "Particulars",
+          "Amount (`)"
+        ],
+        "rows": [
+          [
+            "Sales",
+            "34,00,000"
+          ],
+          [
+            "Less:<br>`<br>Operating<br>expenses<br>(including<br>6,00,000<br>depreciation)",
+            "(12,00,000)"
+          ],
+          [
+            "EBIT",
+            "22,00,000"
+          ],
+          [
+            "Less: Interest",
+            "(6,00,000)"
+          ],
+          [
+            "Earnings before tax",
+            "16,00,000"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 9,
+    "q_id": "Q9",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Investment Decision – NPV, MIRR, Payback, ARR, PI",
+    "title": "ABC Manufacturing Ltd is a mid–sized engineering and fabrication company that supplies precision components to the autom",
+    "text": "ABC Manufacturing Ltd is a mid–sized engineering and fabrication company that supplies precision components to the automobile and heavy machinery sectors. In order to maintain competitiveness and \n\nexpand its market share, the company has proposed a new capital investment project involving the purchase and installation of advanced Computer Numerical Control (CNC) machines and automated assembly lines.\n\nThe estimated cost of the project is to be financed partly through internal accruals and largely through term loans from XYZ Bank. ABC Manufacturing has approached the bank requesting project financing of the initial outlay, citing strong growth potential in demand for precisionengineered products over the next decade.\n\n#### **Financial Projections Provided by ABC Manufacturing Ltd.**\n\nThe company's feasibility report outlines the following:\n\n- The simple payback period is estimated at 5 years, assuming cumulative cash inflows cover the initial investment within that timeframe without considering the time value of money.\n- The discounted payback period is calculated at 7 years, after discounting projected cash inflows at the weighted average cost of capital (WACC).\n- The project's Modified Internal Rate of Return (MIRR) is projected at 10.9%, which is much lower than the incremental borrowing rate.\n- Terminal Value of the annual cash inflows reinvested at the rate of 10% is ` 11,43,589.\n- Cash inflows are expected to be received equally and steadily at the end of every year over the life of the assets. However, the same Cash inflows are expected to be received even after the simple payback period due to efficiency gains, market expansion, and economies of scale.\n\n(**Note:** Round off Initial investment to nearest Lakhs).\n\n#### **Management's Position**\n\nABC Manufacturing argues that:",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 10,
+    "q_id": "Q10",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Dividend Decision – Walter's and Gordon's Model",
+    "title": "For the year ending 31.03.2025, ABC Industries Ltd declared 40% dividend. The current market price of the share is quote",
+    "text": "For the year ending 31.03.2025, ABC Industries Ltd declared 40% dividend. The current market price of the share is quoted at ` 57.50. If the retention ratio is reduced by 20 percent, the market price dropped by ` 2.50. Face value of the shares is ` 10 per share.\n  - 1. Find the return on investment and cost of equity using walter's model.\n  - 2. Comment on the dividend policy adopted by the company.\n  - 3. Find the limiting value of shares using walter's model.\n  - 4. Also find the intrinsic value of the shares under Gordon's Model.\n  - 5. Mr. X, the chief financial officer of the company, opines that the return on investment of the company is not having direct / indirect effect on the intrinsic value of the shares under Gordon's Model. Only cost of equity will be considered for the computation of the intrinsic value of the shares under Gordon's Model.\n\n#### **Miscellaneous**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 11,
+    "q_id": "Q11",
+    "subject": "fm_sm",
+    "paper": "Paper 6 – Financial Management and Strategic Management",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Miscellaneous – Bulldog Bond / Spontaneous Finance / Over-capitalisation / Profit Max",
+    "title": "(a) Write the main features of Bulldog Bond.",
+    "text": "(a) Write the main features of Bulldog Bond.\n  - (b) What do you understand by Spontaneous Sources of finance and explain its sources of finance?\n  - (c) What are the causes of over-capitalization?\n  - (d) What are disadvantages of Profit Maximization?\n\n## **",
+    "options": [],
+    "sub_questions": [
+      {
+        "label": "(a)",
+        "text": "Write the main features of Bulldog Bond.\n  - (b) What do you understand by Spontaneous Sources of finance and explain its sources of finance?\n  - (c) What are the causes of over-capitalization?\n  - (d) What are disadvantages of Profit Maximization?\n\n## **",
+        "options": []
+      }
+    ],
+    "tables": [],
+    "case_scenario": ""
+  }
+]

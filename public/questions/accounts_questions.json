@@ -1,0 +1,425 @@
+[
+  {
+    "num": 2,
+    "q_id": "Q2",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part I – MCQ / Case Scenario",
+    "q_type": "case_scenario",
+    "section": "AS 19 – Leases",
+    "title": "A dealer in machinery, Shakti Equipments Pvt. Ltd., leased out one of its machines to Delta Tools Ltd. on a 3-year opera",
+    "text": "A dealer in machinery, Shakti Equipments Pvt. Ltd., leased out one of its machines to Delta Tools Ltd. on a 3-year operating lease. The machine was given on equal annual lease rentals, and the dealer intended to earn a 20% profit margin on the cost of the machinery.\n\nThe cost of the machinery to the dealer was ` 3,00,000. The economic life of the machinery is estimated at 5 years, and the total expected output over its useful life is given below:\n\n\n\nUnder the lease agreement, Delta Tools Ltd. will use the machine for 3 years (Years I–III) and then return it to Shakti Equipments Pvt. Ltd. The dealer recognizes revenue as per AS 9 Revenue Recognition, since the transaction represents revenue from services rendered in the form of lease rentals.\n\nYou are required to compute the amount of annual lease rent that will provide the dealer with a 20% profit margin on cost.",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Year",
+          "Estimated Output (units)"
+        ],
+        "rows": [
+          [
+            "I",
+            "50,000"
+          ],
+          [
+            "II",
+            "60,000"
+          ],
+          [
+            "III",
+            "40,000"
+          ],
+          [
+            "IV",
+            "65,000"
+          ],
+          [
+            "V",
+            "85,000"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 5,
+    "q_id": "Q5",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Introduction to Accounting Standards",
+    "title": "The accountant of Beryl Limited has asked you to identify the following items as – Change in Accounting Policies / Chang",
+    "text": "The accountant of Beryl Limited has asked you to identify the following items as – Change in Accounting Policies / Change in Accounting Estimates / Extraordinary Items / Prior period items / Ordinary Activity:\n  - (i) Non- provision for salary already due in earlier year.\n  - (ii) Attachment of the property of the enterprise.\n  - (iii) Introduction of new pension scheme for employees.\n  - (iv) Change in Reserve for obsolete inventory.\n  - (v) Settlement of litigation case.\n  - (vi) Legislative changes having long term retrospective application.\n  - (vii) Change from Cost Molde to Revaluation Model for measurement of carrying amount of PPE.\n  - (viii) Government sanctioned grant in current year for expenses incurred in previous accounting year.",
+    "options": [],
+    "sub_questions": [
+      {
+        "label": "(i)",
+        "text": "Non- provision for salary already due in earlier year.",
+        "options": []
+      },
+      {
+        "label": "(ii)",
+        "text": "Attachment of the property of the enterprise.",
+        "options": []
+      },
+      {
+        "label": "(iii)",
+        "text": "Introduction of new pension scheme for employees.",
+        "options": []
+      },
+      {
+        "label": "(iv)",
+        "text": "Change in Reserve for obsolete inventory.",
+        "options": []
+      },
+      {
+        "label": "(v)",
+        "text": "Settlement of litigation case.",
+        "options": []
+      },
+      {
+        "label": "(vi)",
+        "text": "Legislative changes having long term retrospective application.",
+        "options": []
+      },
+      {
+        "label": "(vii)",
+        "text": "Change from Cost Molde to Revaluation Model for measurement of carrying amount of PPE.",
+        "options": []
+      },
+      {
+        "label": "(viii)",
+        "text": "Government sanctioned grant in current year for expenses incurred in previous accounting year.",
+        "options": []
+      }
+    ],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 6,
+    "q_id": "Q6",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Framework – Preparation & Presentation of Financial Statements",
+    "title": "Best Ltd. is engaged in the business of providing consultancy services. A few days back, it received a notice from GST d",
+    "text": "Best Ltd. is engaged in the business of providing consultancy services. A few days back, it received a notice from GST department raising a demand of GST on consultancy services provided by it for ` 2,50,000.\n\nRecently Best Ltd. paid the demand. In the books, the payment is recorded as an extraordinary expenditure.\n\nWhether payment of tax demand raised by the taxation authority can be recognised as an extraordinary item?\n\n#### **AS7 \"Construction Contracts\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 7,
+    "q_id": "Q7",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Applicability of Accounting Standards",
+    "title": "A construction contractor has entered into a fixed-price contract of ` 18,000 lacs to construct a bridge within a three-",
+    "text": "A construction contractor has entered into a fixed-price contract of ` 18,000 lacs to construct a bridge within a three-year time frame. The contract specifies the total contract price and includes provisions for variations in work, which may affect revenue and costs during the contract period. The contractor maintains detailed records of costs incurred and estimates of profit to be recognized each year.\n\nA summary of the financial data for the contract is as follows (amounts in ` lacs):\n\n\n\n<sup>\\*</sup>includes `200 lacs for standard materials stored at the site to be used in year 3 to complete the work.\n\nThe variation in cost and revenue in year 2 has been approved by customer.\n\nUsing the provisions of Accounting Standard (AS) 7 Construction Contracts (Revised), compute the following year-wise:",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "",
+          "(Amount `<br>in lacs)",
+          "",
+          ""
+        ],
+        "rows": [
+          [
+            "",
+            "Year 1",
+            "Year 2",
+            "Year 3"
+          ],
+          [
+            "Initial Amount for revenue agreed in<br>contract",
+            "18,000",
+            "18,000",
+            "18,000"
+          ],
+          [
+            "Variation in Revenue (+)",
+            "",
+            "400",
+            "400"
+          ],
+          [
+            "Contracts<br>costs<br>incurred<br>up<br>to<br>the<br>reporting date",
+            "4,186",
+            "12,336*",
+            "16,200**"
+          ],
+          [
+            "Estimated profit for whole contract",
+            "1,900",
+            "2,000",
+            "2,000"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 8,
+    "q_id": "Q8",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 3 – Cash Flow Statements",
+    "title": "Class Ltd. is a well-established real-estate developer and builder engaged in residential and commercial projects. In th",
+    "text": "Class Ltd. is a well-established real-estate developer and builder engaged in residential and commercial projects. In the financial year 2025, the company purchased a unit of land situated in a prime location for ` 225 crore, intending to develop a high-end residential complex. Within a few months of acquisition, due to a strategic decision to reallocate resources to another project and take advantage of favorable market conditions, Class Ltd. sold the land at a price of ` 360 crore. The company maintained proper books of accounts, and all legal formalities for the transfer were duly completed.\n\nAdvise Class Ltd. on the recognition of revenue from this transaction in the final statement of accounts for the year ended 31st March, 2025.\n\n#### **AS 10 \"Property, Plant and Equipment\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 9,
+    "q_id": "Q9",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 4 – Contingencies and Events after Balance Sheet Date",
+    "title": "Zenith Ltd., a medium-sized manufacturing company engaged in the production of precision industrial components, has prov",
+    "text": "Zenith Ltd., a medium-sized manufacturing company engaged in the production of precision industrial components, has provided the following details of its fixed assets. You are required to calculate depreciation for each asset for the year ended 31st March, 2025, in accordance with the provisions of AS 10 (Revised) – Property, Plant and Equipment.\n  - (i) Machinery was purchased on 1st April, 2020 for ` 10 lakhs. The management estimated its useful life at 5 years, and the residual value at the end of its useful life, based on 2020 prices, is ` 10 lakhs.\n  - (ii) The company owns a piece of land acquired for ` 50 lakhs, which is being held for use in its factory operations.\n  - (iii) Zenith Ltd. constructed a machine for its own use at a total cost of ` 5,00,000. The construction was completed on 1st April, 2024. The machine has a useful life of 10 years; however, the company did not commence using the machine until 31st March, 2025.\n  - (iv) Another machine was purchased on 1st April, 2022, for ` 50,000, having a useful life of 5 years and nil residual value. Subsequently, on April 1, 2024, the management decided that the machine would now be used for only two more years.\n\n#### **AS 12 \"Accounting for Government Grants\"**",
+    "options": [],
+    "sub_questions": [
+      {
+        "label": "(i)",
+        "text": "Machinery was purchased on 1st April, 2020 for ` 10 lakhs. The management estimated its useful life at 5 years, and the residual value at the end of its useful life, based on 2020 prices, is ` 10 lakhs.",
+        "options": []
+      },
+      {
+        "label": "(ii)",
+        "text": "The company owns a piece of land acquired for ` 50 lakhs, which is being held for use in its factory operations.",
+        "options": []
+      },
+      {
+        "label": "(iii)",
+        "text": "Zenith Ltd. constructed a machine for its own use at a total cost of ` 5,00,000. The construction was completed on 1st April, 2024. The machine has a useful life of 10 years; however, the company did not commence using the machine until 31st March, 2025.",
+        "options": []
+      },
+      {
+        "label": "(iv)",
+        "text": "Another machine was purchased on 1st April, 2022, for ` 50,000, having a useful life of 5 years and nil residual value. Subsequently, on April 1, 2024, the management decided that the machine would now be used for only two more years.\n#### **AS 12 \"Accounting for Government Grants\"**",
+        "options": []
+      }
+    ],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 10,
+    "q_id": "Q10",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 7 / AS 10 – Construction Contracts / PPE",
+    "title": "Mediwell Hospitals Ltd., a reputed healthcare company operating a chain of multi-specialty hospitals across India, had a",
+    "text": "Mediwell Hospitals Ltd., a reputed healthcare company operating a chain of multi-specialty hospitals across India, had acquired 40 units of Doppler Scan Machines from Holiver Inc., USA, at a cost of US\\$ 1,65,100 per unit at the beginning of the financial year 2022–23. The prevailing exchange rate at that time was ` 50 per US\\$.\n\nThe acquisition was partly financed through a government grant amounting to ` 5 crores, which was sanctioned specifically for the purchase of these machines under a healthcare modernization scheme. The grant was sanctioned with a specific condition that, in the event of a change in management or ownership control of the company, the grant must be refunded to the government.\n\nIn April 2025, 51% of the company's shareholding was acquired by an overseas investor, thereby resulting in a change in management control. Consequently, the company became liable to refund the entire government grant.\n\nThe expected useful life of each Doppler scan machine is 5 years, and the company follows a Straight Line Method (SLM) of depreciation at 20% per annum. Additionally, Mediwell Hospitals Ltd. incurred the following directly attributable costs:\n\n- Bank charges: US\\$ 4,000 (for the import transaction as a whole)\n- Sea freight: ` 7,500 per unit\n\nYou are further informed that the company has not maintained any Capital Reserve or Deferred Income Account in respect of the government grant received.\n\nYou are required to advise the accounting treatment in the books of Mediwell Hospitals Ltd. as a result of the return of the government grant, in the light of the relevant provisions of Accounting Standard (AS) 12 – Accounting for Government Grants.\n\n#### **AS 13 \"Accounting for Investments\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 11,
+    "q_id": "Q11",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 12 – Accounting for Government Grants",
+    "title": "Mr. Rohan acquired 200 equity shares of Zeta Technologies Ltd. on a cum-right basis for ` 1,40,000 as a long-term invest",
+    "text": "Mr. Rohan acquired 200 equity shares of Zeta Technologies Ltd. on a cum-right basis for ` 1,40,000 as a long-term investment. Subsequently, the company announced a right issue offering one fresh share for every share held (i.e., in the ratio of 1:1) at a price of ` 214 per share.\n\nMr. Rohan, however, decided not to subscribe to the right shares and instead sold his entire rights entitlement for ` 24,000 in the open market.\n\nAfter the rights issue became ex-rights, the market value of his existing 200 shares fell to ` 1,20,000.\n\nYou are required to state the appropriate accounting treatment for the sale of rights entitlement and the fall in market value of the existing shares, in accordance with the provisions of Accounting Standard (AS) 13 – Accounting for Investments.\n\n#### **AS 16 \"Borrowing Costs\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 12,
+    "q_id": "Q12",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 14 – Accounting for Amalgamations",
+    "title": "Can interest be included in the cost of inventories?",
+    "text": "Can interest be included in the cost of inventories?\n\n#### **AS 17 \"Segment Reporting\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 13,
+    "q_id": "Q13",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 17 – Segment Reporting",
+    "title": "Garnet Limited has 4 operating segments. The total revenue (internal and external) and assets are set out as below:",
+    "text": "Garnet Limited has 4 operating segments. The total revenue (internal and external) and assets are set out as below:\n\n\n\nHow many reportable segments does Garnet Limited have as per the Revenue and Assets criteria given in AS 17? State Reasons for your answer.\n\n#### **AS 18 \"Related Party Disclosures\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Segment",
+          "Inter Segment Sales",
+          "External Sales",
+          "Total Assets"
+        ],
+        "rows": [
+          [
+            "Fan",
+            "3,200",
+            "10,900",
+            "23,700"
+          ],
+          [
+            "Light",
+            "200",
+            "1,400",
+            "13,200"
+          ],
+          [
+            "Lamp",
+            "0",
+            "1,500",
+            "4,200"
+          ],
+          [
+            "Printer",
+            "1,100",
+            "200",
+            "3,400"
+          ],
+          [
+            "TOTAL",
+            "4,500",
+            "14,000",
+            "44,500"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 14,
+    "q_id": "Q14",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 19 – Leases",
+    "title": "Mr. Rajiv KMP of Raijada Limited received a cheque of ` 70,000 towards reimbursement of expenses incurred on stay in hot",
+    "text": "Mr. Rajiv KMP of Raijada Limited received a cheque of ` 70,000 towards reimbursement of expenses incurred on stay in hotel, conference expenses etc. visiting some meeting on behalf of the company. You are required to guide whether the above transaction is covered under AS-18?\n\n#### **AS 19 \"Leases\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 15,
+    "q_id": "Q15",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 24 – Discontinuing Operations",
+    "title": "On 1st April, 2024, Mansi Ltd. sold a plant for ` 8,52,800. The carrying amount of the plant on that date was ` 1,80,000",
+    "text": "On 1st April, 2024, Mansi Ltd. sold a plant for ` 8,52,800. The carrying amount of the plant on that date was ` 1,80,000. The sale was a part of the package under which Akash Ltd. leased the asset to Mansi Ltd. for eight years term.\n\nThe economic life of the asset is estimated as 8 years. The minimum lease rents payable by the lessee has fixed at ` 1,60,000 payable annually beginning from 31st March, 2025.\n\nThe incremental borrowing interest rate of Mansi Ltd. is estimated at 10% p.a.\n\nCalculate the net effect on the Statement of profit and loss in the books of Mansi Ltd.\n\n#### **AS 20 \"Earnings per share\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 16,
+    "q_id": "Q16",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 28 – Impairment of Assets",
+    "title": "Should appropriation to mandatory reserves be excluded from net profit attributable to equity shareholders? AB Limited i",
+    "text": "Should appropriation to mandatory reserves be excluded from net profit attributable to equity shareholders? AB Limited is a company engaged in manufacturing industrial packaging equipment. As per the terms of an agreement entered into with its debenture holders, the company is required to appropriate adequate portion of its profits to a specific reserve over the period of maturity of the debentures such that, at the redemption date, the reserve constitutes at least half the value of such debentures. As such appropriations are not available for distribution to the equity shareholders, AB limited has excluded this from the numerator in the computation of Basic EPS. Is this treatment correct?\n\n#### **AS 26 \"Intangible Assets\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 17,
+    "q_id": "Q17",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "AS 29 – Provisions, Contingent Liabilities and Contingent Assets",
+    "title": "Swift Limited acquired patent rights to manufacture Solar Roof Top Panels at a cost of ` 600 lacs. The product life cycl",
+    "text": "Swift Limited acquired patent rights to manufacture Solar Roof Top Panels at a cost of ` 600 lacs. The product life cycle has been estimated to be 5 years and the amortization was decided in the ratio of future cash flows which are estimated as under:\n\n\n\nAfter 3rd year, it was estimated that the patents would have an estimated balance future life of 3 years and Swift Ltd. expected the estimated cash flow after 5th year to be ` 75 Lacs. Determine the amortization cost of the patent for each of the above years as per Accounting Standard 26.\n\n#### **AS 27 \"Financial Reporting of Interests in Joint Ventures\",**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Year",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "rows": [
+          [
+            "Cash Flows (`<br>in lacs)",
+            "300",
+            "300",
+            "300",
+            "150",
+            "150"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 18,
+    "q_id": "Q18",
+    "subject": "accounts",
+    "paper": "Paper 1 – Advanced Accounting",
+    "part": "Part II – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Financial Statements of Companies",
+    "title": "Briefly explain scope and forms of Joint Venture as per AS 27.",
+    "text": "Briefly explain scope and forms of Joint Venture as per AS 27.\n\n#### **AS 28 \"Impairment of assets\"**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  }
+]

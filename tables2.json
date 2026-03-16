@@ -1,0 +1,578 @@
+[
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "subject_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "case_number",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "title",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "context",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "context_tables",
+    "data_type": "jsonb"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "difficulty_level",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "estimated_time_minutes",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "published",
+    "data_type": "boolean"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "created_by",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "imported_from",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_studies",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_attempts",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_attempts",
+    "column_name": "student_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_attempts",
+    "column_name": "case_study_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_attempts",
+    "column_name": "question_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_attempts",
+    "column_name": "selected_answer",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_attempts",
+    "column_name": "is_correct",
+    "data_type": "boolean"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_attempts",
+    "column_name": "time_spent_seconds",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_attempts",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "student_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "case_study_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "total_questions",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "attempted_count",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "correct_count",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "accuracy_pct",
+    "data_type": "numeric"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "completed",
+    "data_type": "boolean"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "started_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "completed_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_progress",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "case_study_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "question_number",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "question_text",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "options_json",
+    "data_type": "jsonb"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "correct_answer",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "correct_answer_text",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "reason",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "case_study_questions",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "q_id",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "subject_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "q_type",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "paper",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "part",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "section",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "title",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "text",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "case_scenario",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "options_json",
+    "data_type": "jsonb"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "sub_questions_json",
+    "data_type": "jsonb"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "tables_json",
+    "data_type": "jsonb"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "created_by",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "published",
+    "data_type": "boolean"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "source_file",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "questions",
+    "column_name": "source_num",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_attempts",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_attempts",
+    "column_name": "student_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_attempts",
+    "column_name": "question_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_attempts",
+    "column_name": "selected_answer",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_attempts",
+    "column_name": "is_correct",
+    "data_type": "boolean"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_attempts",
+    "column_name": "time_spent",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_attempts",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_progress",
+    "column_name": "student_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_progress",
+    "column_name": "subject_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_progress",
+    "column_name": "total_attempted",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_progress",
+    "column_name": "correct_count",
+    "data_type": "integer"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_progress",
+    "column_name": "accuracy_pct",
+    "data_type": "numeric"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_progress",
+    "column_name": "last_attempted_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_progress",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "student_progress",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "subjects",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "subjects",
+    "column_name": "code",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "subjects",
+    "column_name": "name",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "subjects",
+    "column_name": "description",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "subjects",
+    "column_name": "icon",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "subjects",
+    "column_name": "created_by",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "subjects",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "subjects",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "user_profiles",
+    "column_name": "user_id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "user_profiles",
+    "column_name": "subscription_status",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "user_profiles",
+    "column_name": "avatar_url",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "user_profiles",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "user_profiles",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "users",
+    "column_name": "id",
+    "data_type": "uuid"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "users",
+    "column_name": "email",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "users",
+    "column_name": "full_name",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "users",
+    "column_name": "role",
+    "data_type": "text"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "users",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone"
+  },
+  {
+    "table_schema": "public",
+    "table_name": "users",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone"
+  }
+]

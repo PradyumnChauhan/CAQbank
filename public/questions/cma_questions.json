@@ -1,0 +1,914 @@
+[
+  {
+    "num": 1,
+    "q_id": "Q1",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Service Costing",
+    "title": "Calculate the total purchase cost for each material (Apple, Orange, and Grape) under the following two options:",
+    "text": "Calculate the total purchase cost for each material (Apple, Orange, and Grape) under the following two options:\n  - (a) Purchase from Wholesale Supplier\n  - (b) Purchase from Farmers/Import",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 2,
+    "q_id": "Q2",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Cost Sheet – Khadi Cloth (Cost Audit)",
+    "title": "Calculate the Economic Order Quantity (EOQ) for each material under both options.",
+    "text": "Calculate the Economic Order Quantity (EOQ) for each material under both options.",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 3,
+    "q_id": "Q3",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division A – Caselet MCQs",
+    "q_type": "caselet_mcq",
+    "section": "Standard Costing – Variances",
+    "title": "A manufacturing company has set the standard cost for producing one unit of its product as follows:",
+    "text": "A manufacturing company has set the standard cost for producing one unit of its product as follows:\n  - Direct Material: 10 kg @ ` 5/kg\n  - Direct Labour: 4 hours @ ` 20/hour\n  - Variable Overhead: 4 hours @ ` 5/hour\n  - Fixed Overhead: ` 10 per unit (based on normal output of 5,000 units)\n\nDuring a particular month, the company produced 4,800 units. The actual results were:\n\n• Direct Material Used: 49,000 kg costing ` 2,45,000\n\n- Direct Labour: 19,200 hours costing ` 3,84,000\n- Variable Overhead Incurred: ` 95,000\n- Fixed Overhead Incurred: ` 52,000\n\nBased on this information, which of the following statements is most accurate?\n\n- (A) The material usage variance is ` 5,000 (Favourable)\n- (B) The labour rate variance is ` 19,200 (Adverse)\n- (C) The labour rate variance is ` 19,200 (Favourable)\n- (D) The fixed overhead volume variance is ` 2,000 (Adverse)",
+    "options": [
+      "(A) The material usage variance is ` 5,000 (Favourable)\n- (B) The labour rate variance is ` 19,200 (Adverse)\n- (C) The labour rate variance is ` 19,200 (Favourable)\n- (D) The fixed overhead volume variance is ` 2,000 (Adverse)"
+    ],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 4,
+    "q_id": "Q4",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division A – Caselet MCQs",
+    "q_type": "caselet_mcq",
+    "section": "Cost Sheet – Selling Price Calculation",
+    "title": "A manufacturing firm has produced 10000 units of a standard product by incurring the following expenses:",
+    "text": "A manufacturing firm has produced 10000 units of a standard product by incurring the following expenses:\n\nMaterial costs : ` 80,000 Labour costs : ` 40,000 Production overhead : ` 30,000\n\nOffice overhead : 20% of factory cost\n\nEstimated selling and distribution overhead is ` 4 per unit. If the firm has no inventory at the beginning of the period and expects to maintain 20% of output as closing inventory, at what price per unit the product should be sold to earn a profit of 20% on sales?\n\n- (A) ` 27.50\n- (B) ` 23.00\n- (C) ` 26.40\n- (D) ` 28.75",
+    "options": [
+      "(A) ` 27.50\n- (B) ` 23.00\n- (C) ` 26.40\n- (D) ` 28.75"
+    ],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 5,
+    "q_id": "Q5",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division A – Caselet MCQs",
+    "q_type": "caselet_mcq",
+    "section": "Standard Costing – Material Variances",
+    "title": "Product AB has a standard cost of ` 32, ` 6 of which relates to direct materials. Budgeted production for the month was ",
+    "text": "Product AB has a standard cost of ` 32, ` 6 of which relates to direct materials. Budgeted production for the month was 1600 units. During the month, 1500 units of AB were produced and materials worth ` 9,000 were purchased. There was no opening stock of materials but closing stock, which was valued at standard cost, amounted to ` 1,500. What is the total variance for materials?\n  - (A) ` 500 (F)\n\n- (B) ` 500 (A)\n- (C) ` 1500 (F)\n- (D) ` 1500 (A)",
+    "options": [
+      "(A) ` 500 (F)\n\n- (B) ` 500 (A)\n- (C) ` 1500 (F)\n- (D) ` 1500 (A)"
+    ],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 6,
+    "q_id": "Q6",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division A – Caselet MCQs",
+    "q_type": "caselet_mcq",
+    "section": "Marginal Costing – Transfer Pricing / Minimum Price",
+    "title": "Rinki Ltd. has two divisions, A and B. Target profit of A is ` 100 lakh. A has capacity to produce 20,000 units of produ",
+    "text": "Rinki Ltd. has two divisions, A and B. Target profit of A is ` 100 lakh. A has capacity to produce 20,000 units of product P but only 15,000 units are produced and sold in the market at ` 3,000 per unit. B received an order for which P would be required as input. B approaches A for purchase of 5000 units of P. What price should A charge from B per unit of P so as to meet its target profit? (Other details of A are: Fixed cost is ` 90 lakh; Variable cost per unit of P is ` 2,000)\n  - (A) ` 3,000\n  - (B) ` 2,800\n  - (C) ` 2,500\n  - (D) ` 2,000",
+    "options": [
+      "(A) ` 3,000\n  - (B) ` 2,800\n  - (C) ` 2,500\n  - (D) ` 2,000"
+    ],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 7,
+    "q_id": "Q7",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division A – Caselet MCQs",
+    "q_type": "caselet_mcq",
+    "section": "Budget and Budgetary Control – Units to Purchase",
+    "title": "A company plans to produce 44,000 units during the budget period. The company requires 4 units of raw material to produc",
+    "text": "A company plans to produce 44,000 units during the budget period. The company requires 4 units of raw material to produce 1 unit of finished goods. The company currently has 1,00,000 units of raw material on hand and wishes to have an inventory of 1,10,000 units of raw material on hand at the end of the budget period. The number of raw material units to be purchased during the budget period is\n  - (A) 1,76,000 units\n  - (B) 1,67,000 units\n  - (C) 1,86,000 units\n  - (D) 1,68,000 units",
+    "options": [
+      "(A) 1,76,000 units\n  - (B) 1,67,000 units\n  - (C) 1,86,000 units\n  - (D) 1,68,000 units"
+    ],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 8,
+    "q_id": "Q8",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Material Cost – EOQ and Best Purchase Option",
+    "title": "XYZ Enterprises manufactures different types of beverages. The monthly demand pattern for these beverages is as follows:",
+    "text": "XYZ Enterprises manufactures different types of beverages. The monthly demand pattern for these beverages is as follows:\n  - Orange Juice: 60,000 litres\n  - Apple Juice: 20,000 litres\n  - Grape Juice: 5,000 litres\n\nTo produce one litre of Apple Juice, Orange Juice, and Grape Juice, 6 kg of apples, 3 kg of oranges, and 5 kg of grapes are required, respectively. There is no opening or closing stock of raw materials.\n\nXYZ Enterprises can source the raw materials either from local farmers (import in case or grapes) or from wholesale suppliers. The company has the flexibility to purchase any quantity of materials from the wholesale suppliers, but when buying from the farmers or in case of import, it must adhere to a minimum quantity that is specified for each type of material. Below is a summary of the purchasing conditions:\n\n\n\nTransportation and Sorting and piling cost is given for per purchase order.\n\n8% import duty is applicable is purchase of grapes for which ITC is not available.\n\nXYZ Enterprises is also paying an annual interest rate of 15% on cash credit facility and `1,000 per 1,000 kg of rent to its warehouse.\n\nYou are required to:",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Material",
+          "Wholesale Supplier",
+          "Farmers"
+        ],
+        "rows": [
+          [
+            "Oranges",
+            "Minimum<br>purchase:<br>Any<br>quantity",
+            "7,20,000 kg"
+          ],
+          [
+            "",
+            "Price per kg: ` 18.00",
+            "Price per kg: ` 15.00"
+          ],
+          [
+            "",
+            "Transportation: ` 5,000",
+            "Transportation: ` 20,000"
+          ],
+          [
+            "",
+            "-",
+            "Sorting<br>and<br>piling<br>cost:<br>` 1,500"
+          ],
+          [
+            "",
+            "Loading cost: ` 10/50 kg",
+            "Loading cost: `5/50 kg"
+          ],
+          [
+            "",
+            "Unloading cost: ` 2/50 kg",
+            "Unloading cost: `2/50 kg"
+          ],
+          [
+            "Apples",
+            "Minimum<br>purchase:<br>Any<br>quantity",
+            "3,60,000 kg"
+          ],
+          [
+            "",
+            "Price per kg: ` 12.00",
+            "Price per kg: ` 10.00"
+          ],
+          [
+            "",
+            "Transportation: ` 11,000",
+            "Transportation: ` 15,000"
+          ],
+          [
+            "",
+            "-",
+            "Sorting<br>and<br>piling<br>cost:<br>` 1,200"
+          ],
+          [
+            "",
+            "Loading cost: `10/50 kg",
+            "Loading cost: ` 3/50 kg"
+          ],
+          [
+            "",
+            "Unloading cost: `2/50 kg",
+            "Unloading cost: ` 2/50 kg"
+          ],
+          [
+            "",
+            "Wholesale Supplier",
+            "Import"
+          ],
+          [
+            "Grapes",
+            "Minimum<br>purchase:<br>Any<br>quantity",
+            "1,50,000 kg"
+          ],
+          [
+            "",
+            "Price per kg: ` 32.00",
+            "Price per kg: ` 25.00"
+          ],
+          [
+            "",
+            "Transportation: ` 3,000",
+            "Transportation: ` 15,000"
+          ],
+          [
+            "",
+            "Loading cost: ` 10/50 kg",
+            "Loading cost: ` 25/50 kg"
+          ],
+          [
+            "",
+            "Unloading cost: `2/50 kg",
+            "Unloading cost: `2/50 kg"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 9,
+    "q_id": "Q9",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Employee Cost – Earnings Calculation",
+    "title": "Tommy HL Ltd. pays the following to a skilled worker engaged in production works. The following are the employee benefit",
+    "text": "Tommy HL Ltd. pays the following to a skilled worker engaged in production works. The following are the employee benefits paid to the employee:\n\n\n\n\n\nThe company normally works 8-hour a day and 26-day in a month. The company provides 30 minutes lunch break in between.\n\nDuring the month of August 2025, Mr. Shyam works for 23 days including 15th August and a Sunday and applied for 3 days of casual leave. On 15th August and Sunday he worked for 5 and 6 hours respectively without lunch break.\n\nOn 5th and 13th August he worked for 10 and 9 hours respectively.\n\nDuring the month Mr. Shyam worked for 100 hours on Job no. AB100.\n\nYou are required to CALCULATE:\n\n- (i) Earnings per day\n- (ii) Effective wages rate per hour of Mr. Shyam.\n- (iii) Wages to be charged to Job no. AB100.\n\n#### **Overheads: Absorption Costing method**",
+    "options": [],
+    "sub_questions": [
+      {
+        "label": "(i)",
+        "text": "Earnings per day\n- (ii) Effective wages rate per hour of Mr. Shyam.\n- (iii) Wages to be charged to Job no. AB100.\n\n#### **Overheads: Absorption Costing method**",
+        "options": []
+      }
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "(a)",
+          "Basic salary per day",
+          "`1,000"
+        ],
+        "rows": [
+          [
+            "(b)",
+            "Dearness allowance (DA)",
+            "20% of basic salary"
+          ],
+          [
+            "(c)",
+            "House rent allowance",
+            "16% of basic salary"
+          ],
+          [
+            "(d)",
+            "Transport allowance",
+            "`50 per day of actual work"
+          ],
+          [
+            "(e)",
+            "Overtime",
+            "Twice the hourly rate (considers basic<br>and DA), only if works more than 9<br>hours a day otherwise no overtime<br>allowance. If works for more than 9<br>hours<br>a<br>day<br>then<br>overtime<br>is<br>considered after 8th hours."
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "(f)",
+          "Work<br>of<br>holiday<br>and<br>Sunday",
+          "Double of per day basic rate provided<br>works atleast 4 hours. The holiday and<br>Sunday<br>basic<br>is<br>eligible<br>for<br>all<br>allowances and statutory deductions."
+        ],
+        "rows": [
+          [
+            "(h)",
+            "Earned<br>leave<br>&<br>Casual<br>leave",
+            "These are paid leave."
+          ],
+          [
+            "(h)",
+            "Employer's<br>contribution<br>to Provident fund",
+            "12% of basic and DA"
+          ],
+          [
+            "(i)",
+            "Employer's<br>contribution<br>to Pension fund",
+            "7% of basic and DA"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 10,
+    "q_id": "Q10",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Overheads – Cost Distribution and Apportionment",
+    "title": "BrightTech Appliances Ltd. is a leading manufacturer of smart home devices such as the SmartCool AC, PowerLite Inverter,",
+    "text": "BrightTech Appliances Ltd. is a leading manufacturer of smart home devices such as the SmartCool AC, PowerLite Inverter, and EcoDry Dryer. Amid increasing operational complexity, the company's finance controller has initiated a review of overhead allocations to gain better control over departmental efficiency and product profitability.\n\nThe company operates through four major departments:",
+    "options": [],
+    "sub_questions": [],
+    "tables": [],
+    "case_scenario": ""
+  },
+  {
+    "num": 11,
+    "q_id": "Q11",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Activity Based Costing – Customer Profitability",
+    "title": "Edward Ltd. manufactures weighing machines of standard size and sells its products to two industrial customers namely MT",
+    "text": "Edward Ltd. manufactures weighing machines of standard size and sells its products to two industrial customers namely MT Ltd. and KG Ltd. and to a dealer MG Bros. having shops in different cities. The maximum retail price per unit of weighing machine is ` 11,000 and per unit average cost of production is ` 5,500 (40% is general fixed overhead cost).\n\nThe Finance Officer has been asked to undertake a customer profitability analysis and calculate and compare the profit margin per customer (before deducting general fixed overhead) to know about the real customer profitability.\n\nFollowing are the additional overhead information:\n\n\n\n\n\n\n\nYou are required to analyse the profitability for each customer, which customer is the most profitable.\n\n#### **Cost Accounting Systems**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Delivery costs",
+          "`<br>200 per kilometer"
+        ],
+        "rows": [
+          [
+            "Emergency<br>delivery<br>cost<br>(in<br>addition<br>to<br>delivery cost)",
+            "`<br>21,000 per delivery"
+          ],
+          [
+            "Order processing cost",
+            "`<br>6,000 per order"
+          ],
+          [
+            "Specific discount and sales commission",
+            "As per negotiation"
+          ],
+          [
+            "Product Advertisement cost",
+            "Actual cost"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "",
+          "MT Ltd.",
+          "KG Ltd.",
+          "MG Bros."
+        ],
+        "rows": [
+          [
+            "Sales (in units)",
+            "2,000",
+            "1,000",
+            "800"
+          ],
+          [
+            "Total delivery kilometer travelled",
+            "1,000",
+            "800",
+            "900"
+          ],
+          [
+            "No. of emergency delivery",
+            "2",
+            "1",
+            "0"
+          ],
+          [
+            "No. of orders processed",
+            "4",
+            "2",
+            "8"
+          ],
+          [
+            "Specific Discount (percentage of<br>sales revenue)",
+            "25%",
+            "20%",
+            "15%"
+          ],
+          [
+            "Sales commission (percentage of<br>sales revenue)",
+            "15%",
+            "10%",
+            "5%"
+          ],
+          [
+            "Advertisement costs (`)",
+            "8,75,000",
+            "6,15,000",
+            "4,30,000"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 12,
+    "q_id": "Q12",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Cost Accounting Systems – Costing P&L and Reconciliation",
+    "title": "XYZ Limited manufactures a standard product in a competitive market. During the year, the company experienced operationa",
+    "text": "XYZ Limited manufactures a standard product in a competitive market. During the year, the company experienced operational changes, including partial automation and fluctuations in input costs. Although the company continued using traditional costing methods, discrepancies were observed between financial and cost profits. Management has requested a detailed analysis to understand the variance and assess the accuracy of overhead absorption*.*\n\nThe following is the Trading and Profit & Loss Account of XYZ Limited:\n\n\n\n\n\nXYZ Limited manufactures a standard product and uses traditional costing systems for internal reporting.\n\nThe Cost Accounting records of XYZ Ltd. show the following:",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Dr.",
+          "",
+          "` Cr.",
+          "`",
+          "`"
+        ],
+        "rows": [
+          [
+            "To Raw Materials",
+            "",
+            "32,50,000 By Sales (40,000<br>units)",
+            "92,00,000",
+            ""
+          ],
+          [
+            "To Direct Wages",
+            "21,75,000 By",
+            "Closing<br>Finished<br>Goods<br>(2,000 units)",
+            "3,90,000",
+            ""
+          ],
+          [
+            "To<br>Production<br>Overheads",
+            "11,20,000 By",
+            "Work-in<br>Progress:",
+            "",
+            ""
+          ],
+          [
+            "To<br>Administration<br>Overheads",
+            "6,25,000",
+            "Materials",
+            "72,000",
+            ""
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "To<br>Selling<br>&<br>Distribution<br>Overheads",
+          "4,60,000",
+          "Wages",
+          "34,000",
+          ""
+        ],
+        "rows": [
+          [
+            "To<br>Preliminary<br>Expenses<br>Written<br>Off",
+            "",
+            "30,000 Production<br>Overheads",
+            "26,500",
+            "1,32,500"
+          ],
+          [
+            "To Goodwill Written<br>Off",
+            "55,000 By",
+            "Dividend<br>Received",
+            "5,25,000",
+            ""
+          ],
+          [
+            "To Fines",
+            "",
+            "10,000 By Interest from<br>Bank Deposits",
+            "1,20,000",
+            ""
+          ],
+          [
+            "To Interest on Term<br>Loan",
+            "18,000",
+            "",
+            "",
+            ""
+          ],
+          [
+            "To Loss on Sale of<br>Equipment",
+            "20,000",
+            "",
+            "",
+            ""
+          ],
+          [
+            "To Tax",
+            "2,25,000",
+            "",
+            "",
+            ""
+          ],
+          [
+            "To Net Profit for the<br>Year",
+            "23,79,500",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Total",
+            "1,03,67,500",
+            "",
+            "Total",
+            "1,03,67,500"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 13,
+    "q_id": "Q13",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Job and Batch Costing",
+    "title": "A manufacturing company follows a job costing system. The following data is extracted from its books for the year ended ",
+    "text": "A manufacturing company follows a job costing system. The following data is extracted from its books for the year ended 31st March, 2025:\n\n\n\n#### **Additional Information:**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Particulars",
+          "Amount (`)"
+        ],
+        "rows": [
+          [
+            "Direct Materials",
+            "12,50,000"
+          ],
+          [
+            "Direct Wages",
+            "9,80,000"
+          ],
+          [
+            "Selling<br>&<br>Distribution<br>Overheads<br>(Variable:<br>60%,<br>Fixed: 40%)",
+            "6,30,000"
+          ],
+          [
+            "Administration Overheads (Fixed)",
+            "5,40,000"
+          ],
+          [
+            "Factory Overheads (70% Fixed, 30% Variable)",
+            "5,75,000"
+          ],
+          [
+            "Profit",
+            "8,25,000"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 14,
+    "q_id": "Q14",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Process Costing",
+    "title": "Following data are available for a product for the month of April, 2025:",
+    "text": "Following data are available for a product for the month of April, 2025:\n\n\n\nProduction remaining in process has to be valued as follows:\n\nMaterials 100% Labour 50% Overheads 50%\n\nThere has been no abnormal loss in Process- II.\n\nThe company follows weighted average method for valuing inventory.\n\nPrepare Process Accounts after working out the missing figures and with detailed workings.\n\n#### **Joint Product and By-Product**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Particulars",
+          "Process- I (`)",
+          "Process- II (`)"
+        ],
+        "rows": [
+          [
+            "Opening work-in- progress",
+            "Nil",
+            "Nil"
+          ],
+          [
+            "Costs incurred during the month:",
+            "",
+            ""
+          ],
+          [
+            "-<br>Direct materials",
+            "6,00,000",
+            ""
+          ],
+          [
+            "-<br>Labour",
+            "1,20,000",
+            "1,60,000"
+          ],
+          [
+            "-<br>Factory overheads",
+            "2,40,000",
+            "2,00,000"
+          ],
+          [
+            "Units of production:",
+            "",
+            ""
+          ],
+          [
+            "Received in process",
+            "40,000",
+            "36,000"
+          ],
+          [
+            "Completed and transferred",
+            "36,000",
+            "32,000"
+          ],
+          [
+            "Closing work-in-progress",
+            "2,000",
+            "?"
+          ],
+          [
+            "Normal loss in process",
+            "2,000",
+            "1,500"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 15,
+    "q_id": "Q15",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Joint Product and By-Product",
+    "title": "A company processes a raw material in its Department 1 to produce three products, viz. P, Q and C at the same split-off ",
+    "text": "A company processes a raw material in its Department 1 to produce three products, viz. P, Q and C at the same split-off stage. During a period 1,80,000 kgs of raw materials were processed in Department 1 at a total cost of ` 12,88,000 and the resultant output of P, Q and C were 18,000 kgs, 10,000 kgs and 54,000 kgs respectively. P and Q were further processed in Department 2 at a cost of `1,80,000 and `1,50,000 respectively.\n\nC was further processed in Department 3 at a cost of `1,08,000. There is no waste in further processing. The details of sales affected during the period were as under:\n\n\n\nThere were no opening stocks. If these products were sold at split-off stage, the selling prices of P, Q and C would have been ` 50, ` 40 and ` 10 per kg respectively.\n\n#### Required:\n\n- (i) Prepare a statement showing the apportionment of joint costs to P, Q and C.\n- (ii) Present a statement showing the cost per kg of each product indicating joint cost and further processing cost and total cost separately.\n- (iii) Prepare a statement showing the product wise and total profit for the period.\n- (iv) State with supporting calculations as to whether any or all the products should be further processed or not\n\n#### **Standard Costing**",
+    "options": [],
+    "sub_questions": [
+      {
+        "label": "(i)",
+        "text": "Prepare a statement showing the apportionment of joint costs to P, Q and C.\n- (ii) Present a statement showing the cost per kg of each product indicating joint cost and further processing cost and total cost separately.\n- (iii) Prepare a statement showing the product wise and total profit for the period.\n- (iv) State with supporting calculations as to whether any or all the products should be further processed or not\n\n#### **Standard Costing**",
+        "options": []
+      }
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "",
+          "P",
+          "Q",
+          "C"
+        ],
+        "rows": [
+          [
+            "Quantity Sold (kgs.)",
+            "17,000",
+            "5,000",
+            "44,000"
+          ],
+          [
+            "Sales Value (`)",
+            "12,24,000",
+            "2,50,000",
+            "7,92,000"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 16,
+    "q_id": "Q16",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Standard Costing – Material Mix and Yield Variances",
+    "title": "A company produces a product X, using raw materials A and B. The standard mix of A and B is 1: 1 and the standard loss i",
+    "text": "A company produces a product X, using raw materials A and B. The standard mix of A and B is 1: 1 and the standard loss is 10% of input. You are required to COMPUTE the MISSING INFORMATION indicated by \"?\" based on the data given below:\n\n\n\n#### **Marginal Costing**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "",
+          "A",
+          "B",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Standard price of raw material (`<br>/ kg.)",
+            "24",
+            "30",
+            ""
+          ],
+          [
+            "Actual input (kg.)",
+            "?",
+            "70",
+            ""
+          ],
+          [
+            "Actual output (kg.)",
+            "",
+            "",
+            "?"
+          ],
+          [
+            "Actual price `<br>/ kg.",
+            "30",
+            "?",
+            ""
+          ],
+          [
+            "Standard input quantity (kg.)",
+            "?",
+            "?",
+            ""
+          ],
+          [
+            "Yield variance (sub usage)",
+            "?",
+            "?",
+            "270(A)"
+          ],
+          [
+            "Mix variance",
+            "?",
+            "?",
+            "?"
+          ],
+          [
+            "Usage variance",
+            "?",
+            "?",
+            "?"
+          ],
+          [
+            "Price variance",
+            "?",
+            "?",
+            "?"
+          ],
+          [
+            "Cost variance",
+            "0",
+            "?",
+            "1,300(A)"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 17,
+    "q_id": "Q17",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Marginal Costing – Make or Buy",
+    "title": "Jupiter Ltd, a 'Fast-Moving Consumer Goods (FMCG)' company intends to diversify the product line to achieve full utilisa",
+    "text": "Jupiter Ltd, a 'Fast-Moving Consumer Goods (FMCG)' company intends to diversify the product line to achieve full utilisation of its plant capacity. As a result of considerable research made, the company has been able to develop a new product called 'EXE'.\n\n'EXE' is packed in *cans* of 100 ml capacity and is sold to the wholesalers in cartons of 24 *cans* at `120 per carton. Since the company uses its spare capacity for the manufacture of 'EXE', no additional fixed expenses will be incurred. However, accountant has allocated a share of `1,12,500 per month as fixed expenses to be absorbed by 'EXE' as a fair share of the company's present fixed costs to the new product for costing purposes.\n\nThe company estimates the production and sale of 'EXE' at 1,50,000 *cans* per month and on this basis the following cost estimates (per carton) have been developed:\n\n`\n\n\n\nAfter a detailed market survey the economy is confident that the production and sales of 'EXE' can be increased to 1,75,000 *cans* per month and ultimately to 2,25,000 *cans* per month.\n\nThe company at present has a capacity for the manufacture of 1,50,000 empty *cans* and the cost of the empty *cans* if purchased from outside will result in a saving of 20% in direct material, 10% in direct wages and 10% in variable overhead costs of 'EXE'. The price at which the outside firm is willing to supply the empty *cans* is `0.675 per empty *can*. If the company desires to manufacture empty *cans* in excess of 1,50,000 *cans*, a machine involving an additional fixed overhead of `7,500 per month will have to be installed.\n\n#### Required:\n\n- (a) State by showing your workings whether the company should make or buy the empty *cans* at each of the three volumes of production of 'EXE' namely, 1,50,000, 1,75,000 and 2,25,000 *cans*.\n- (b) At what volume of sales will it be economical for the company to install the additional equipment for the manufacture of empty cans?\n- (c) Evaluate the profitability on the sale of 'EXE' at each of the aforesaid three levels of output based on your decision and showing the cost of empty *cans* as a separate element of cost.\n\n#### **Budget and Budgetary Control**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Direct Materials",
+          "54"
+        ],
+        "rows": [
+          [
+            "Direct Wages",
+            "36"
+          ],
+          [
+            "All Overheads",
+            "27"
+          ],
+          [
+            "Total Costs",
+            "117"
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 18,
+    "q_id": "Q18",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Budget and Budgetary Control – Material Purchase and Wage Budget",
+    "title": "SIAM Ltd. manufactures two products using one type of material and one grade of labour. Shown below is an extract from t",
+    "text": "SIAM Ltd. manufactures two products using one type of material and one grade of labour. Shown below is an extract from the company's working papers for the next period's budget.\n\n\n\n\n\nOvertime premium is 50% and is payable, if a worker works for more than 40 hours a week. There are 45 direct workers.\n\nThe target productivity ratio (or efficiency ratio) for the productive hours worked by the direct workers in actually manufacturing the products is 80%; in addition the non-productive downtime is budgeted at 20% of the productive hours worked.\n\nThere are twelve 5-day weeks in the budget period and it is anticipated that sales and production will occur evenly throughout the whole period.\n\nIt is anticipated that stock at the beginning of the period will be:\n\nProduct A 510 units; Product B 1,200 units; Raw material 2,150 Kg.\n\nThe target closing stock, expressed in terms of anticipated activity during budget period are - Product *A* 15 days sales; Product *B* 20 days sales; Raw material 10 days consumption.\n\n#### Required:\n\n- (a) the material purchases budget, and\n- (b) the wages budget for the direct workers, showing the quantities and values, for the next period.\n\n#### **Miscellaneous**",
+    "options": [],
+    "sub_questions": [],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "Particulars",
+          "Product A",
+          "Product B"
+        ],
+        "rows": [
+          [
+            "Budgeted Sales (Units)",
+            "1,800",
+            "2,400"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "Budgeted<br>Material<br>Consumption<br>per<br>Product (Kg.)",
+          "5",
+          "3"
+        ],
+        "rows": [
+          [
+            "[Budgeted Material Cost `12 per Kg.]",
+            "",
+            ""
+          ],
+          [
+            "Standard Hours Allowed per product",
+            "5",
+            "4"
+          ],
+          [
+            "[Budgeted Wage Rate `8 per hour]",
+            "",
+            ""
+          ]
+        ]
+      }
+    ],
+    "case_scenario": ""
+  },
+  {
+    "num": 19,
+    "q_id": "Q19",
+    "subject": "cma",
+    "paper": "Paper 4 – Cost and Management Accounting",
+    "part": "Division B – Descriptive Questions",
+    "q_type": "descriptive",
+    "section": "Miscellaneous – Cost Types / ABC Drivers / Budgetary Limitations / Cost Control vs Reduction",
+    "title": "(a) Standard costs, marginal costs are some of the types of cost which helps the management in decision making. DISCUSS ",
+    "text": "(a) Standard costs, marginal costs are some of the types of cost which helps the management in decision making. DISCUSS any five types of costs categorised based on its use in Managerial Decision Making.\n  - (b) Provide EXAMPLE(S) of the cost driver for the following cost pools:\n\n\n\n\n\n- (c) Besides having advantages of Budgetary Control System being a powerful instrument used by business entity for the control of their expenditure, it has certain limitations as well. ELABORATE any four limitations of Budgetary Control System.\n- (d) Cost control emphasis is on past and present, while cost reduction emphasis is on present and future. DISCUSS some more differences between Cost control and Cost reduction.",
+    "options": [],
+    "sub_questions": [
+      {
+        "label": "(a)",
+        "text": "Standard costs, marginal costs are some of the types of cost which helps the management in decision making. DISCUSS any five types of costs categorised based on its use in Managerial Decision Making.\n  - (b) Provide EXAMPLE(S) of the cost driver for the following cost pools:\n\n- (c) Besides having advantages of Budgetary Control System being a powerful instrument used by business entity for the control of their expenditure, it has certain limitations as well. ELABORATE any four limitations of Budgetary Control System.\n- (d) Cost control emphasis is on past and present, while cost reduction emphasis is on present and future. DISCUSS some more differences between Cost control and Cost reduction.",
+        "options": []
+      }
+    ],
+    "tables": [],
+    "case_scenario": ""
+  }
+]
