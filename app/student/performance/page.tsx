@@ -11,9 +11,13 @@ export default function PerformancePage() {
   }, [router])
 
   return (
-    <div className="rounded-2xl border border-primary-lighter bg-white p-10 text-center">
-      <div className="mx-auto h-10 w-10 rounded-full border-4 border-primary-lighter border-t-primary animate-spin" />
-      <p className="mt-4 text-gray-600">Redirecting to dashboard...</p>
+    <div className="flex items-center justify-center min-h-screen">
+      <div className="rounded-xl border border-rose-100 bg-white p-12 shadow-md text-center">
+        <div className="inline-block p-3 bg-primary/10 rounded-lg">
+          <div className="mx-auto h-8 w-8 rounded-full border-4 border-primary/30 border-t-primary animate-spin" />
+        </div>
+        <p className="mt-4 text-gray-600 font-medium">Redirecting to dashboard...</p>
+      </div>
     </div>
   )
 }

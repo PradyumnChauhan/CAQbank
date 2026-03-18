@@ -143,8 +143,10 @@ type Question = {
   title: string
   text: string | null
   q_type: string
-  options_json: string[] | null
+  options_json: (string | { label: string; text: string })[] | null
   case_scenario: string | null
+  sub_questions_json: Array<{ label: string; text: string; options: string[] }> | null
+  tables_json: Array<{ title: string; headers: string[]; rows: string[][] }> | null
 }
 
 type QuestionsData = {
@@ -156,9 +158,38 @@ type QuestionsData = {
 }
 
 function normalizeOptions(options: unknown): string[] {
+  console.log('[normalizeOptions] Input:', JSON.stringify(options))
+  
   if (Array.isArray(options)) {
-    return options.filter((item) => typeof item === 'string') as string[]
+    const result = options
+      .map((item, idx) => {
+        console.log(`[normalizeOptions] Item ${idx}:`, JSON.stringify(item), 'Type:', typeof item)
+        
+        // Handle string format
+        if (typeof item === 'string') {
+          const trimmed = item.trim()
+          console.log(`[normalizeOptions] String item ${idx}: "${trimmed}"`)
+          return trimmed
+        }
+        
+        // Handle object format { label: string; text: string }
+        if (typeof item === 'object' && item !== null && 'text' in item) {
+          const itemObj = item as Record<string, unknown>
+          const text = String(itemObj.text).trim()
+          console.log(`[normalizeOptions] Object item ${idx}: "${text}"`)
+          return text
+        }
+        
+        console.log(`[normalizeOptions] Item ${idx} skipped - no match`)
+        return null
+      })
+      .filter((item) => item !== null) as string[]
+    
+    console.log('[normalizeOptions] Final result:', JSON.stringify(result))
+    return result
   }
+  
+  console.log('[normalizeOptions] Input is not an array, returning []')
   return []
 }
 
@@ -187,7 +218,7 @@ export async function loadStudentQuestionsAction(
     // Fetch published questions for this subject and type
     const { data: questions, error: questionsError } = await supabase
       .from('questions')
-      .select('id, title, text, q_type, options_json, case_scenario')
+      .select('id, title, text, q_type, options_json, case_scenario, sub_questions_json, tables_json')
       .eq('subject_id', subjectId)
       .eq('q_type', qType)
       .eq('published', true)
@@ -199,10 +230,35 @@ export async function loadStudentQuestionsAction(
     }
 
     // Normalize options
-    const normalized = (questions || []).map((item) => ({
-      ...item,
-      options_json: normalizeOptions(item.options_json),
-    }))
+    const normalized = (questions || []).map((item, idx) => {
+      console.log(`[loadStudentQuestions] Question ${idx}:`, {
+        id: item.id,
+        title: item.title,
+        q_type: item.q_type,
+        options_json_raw: JSON.stringify(item.options_json),
+        options_json_type: typeof item.options_json,
+        options_json_isArray: Array.isArray(item.options_json),
+      })
+      
+      const normalized_opts = normalizeOptions(item.options_json)
+      
+      console.log(`[loadStudentQuestions] Question ${idx} normalized:`, {
+        id: item.id,
+        optionsCount: normalized_opts.length,
+        options: JSON.stringify(normalized_opts),
+      })
+      
+      return {
+        ...item,
+        options_json: normalized_opts,
+      }
+    })
+
+    console.log('[loadStudentQuestions] Success:', {
+      subjectId,
+      qType,
+      questionsCount: normalized.length,
+    })
 
     return {
       success: true,

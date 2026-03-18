@@ -74,53 +74,77 @@ export default function StudentBookmarksPage() {
   }
 
   return (
-    <div className="space-y-6 pb-20 md:pb-0">
-      <div>
-        <h1 className="text-3xl md:text-4xl font-bold text-purple-dark inline-flex items-center gap-2">
-          <Image src="/icon.png" alt="Bookmarks" width={50} height={50} />
-          Bookmarks
-        </h1>
-        <p className="text-gray-600 mt-2">Saved questions for quick revision.</p>
+    <div className="space-y-8 pb-20 md:pb-0">
+      {/* Header */}
+      <div className="flex items-center gap-4">
+        <div className="p-3 bg-gradient-to-br from-primary to-rose-300 rounded-lg shadow-md">
+          <Image src="/icon.png" alt="Bookmarks" width={48} height={48} className="w-12 h-12" />
+        </div>
+        <div>
+          <h1 className="text-3xl md:text-4xl font-bold text-primary">Bookmarks</h1>
+          <p className="text-gray-600 mt-1 font-medium">Saved questions for quick revision.</p>
+        </div>
       </div>
 
+      {/* Error State */}
       {error && (
-        <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-red-700">
+        <div className="rounded-lg border border-red-200 bg-red-50 p-5 text-red-700 font-medium">
           {error}
         </div>
       )}
 
+      {/* Loading State */}
       {isLoading ? (
-        <div className="rounded-2xl border border-primary-lighter bg-white p-10 text-center">
-          <Image src="/icon.png" alt="Loading" width={50} height={50} className="mx-auto animate-pulse" />
-          <p className="mt-4 text-gray-600">Loading bookmarks...</p>
+        <div className="rounded-xl border border-rose-100 bg-white p-12 text-center shadow-sm">
+          <div className="inline-block p-3 bg-primary/10 rounded-lg">
+            <Image src="/icon.png" alt="Loading" width={50} height={50} className="mx-auto animate-pulse" />
+          </div>
+          <p className="mt-4 text-gray-600 font-medium">Loading bookmarks...</p>
         </div>
       ) : items.length === 0 ? (
-        <div className="rounded-2xl border border-primary-lighter bg-white p-10 text-center">
-          <p className="text-gray-600">No bookmarks yet.</p>
-          <Link href="/student/subjects" className="inline-flex items-center gap-2 mt-4 text-primary font-semibold hover:text-purple-dark">
-            <Image src="/icon.png" alt="Browse" width={50} height={50} />
-            Browse subjects
+        <div className="rounded-xl border border-rose-100 bg-rose-50 p-12 text-center">
+          <div className="inline-block p-3 bg-primary/10 rounded-lg mb-4">
+            <Image src="/icon.png" alt="Empty" width={40} height={40} className="w-10 h-10 opacity-50" />
+          </div>
+          <p className="text-gray-600 font-bold">No bookmarks yet.</p>
+          <p className="text-gray-500 text-sm mt-2 font-medium">Start saving questions to see them here!</p>
+          <Link href="/student/subjects" className="inline-flex items-center gap-2 mt-6 px-5 py-2.5 bg-primary text-white rounded-lg font-bold hover:shadow-lg transition-all">
+            Browse Subjects
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
           </Link>
         </div>
       ) : (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {items.map((item) => (
-            <div key={item.id} className="rounded-xl border border-primary-lighter bg-white p-5">
-              <p className="text-xs uppercase tracking-wide text-primary font-semibold">{item.q_type.replaceAll('_', ' ')}</p>
-              <h2 className="text-lg font-semibold text-purple-dark mt-1">{item.title}</h2>
-              <p className="text-sm text-gray-600 mt-2 line-clamp-3">{item.text || 'No text available.'}</p>
+            <div key={item.id} className="group rounded-lg border border-rose-100 bg-white p-6 shadow-sm hover:shadow-md hover:border-primary transition-all duration-300">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold uppercase tracking-wide mb-3">
+                <div className="w-1.5 h-1.5 bg-primary rounded-full" />
+                {item.q_type.replaceAll('_', ' ')}
+              </div>
+              
+              {/* Title */}
+              <h2 className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors line-clamp-2">{item.title}</h2>
+              
+              {/* Preview */}
+              <p className="text-sm text-gray-600 mt-3 line-clamp-3">{item.text || 'No text available.'}</p>
 
-              <div className="mt-4 flex items-center justify-between gap-3">
+              {/* Actions */}
+              <div className="mt-5 flex items-center justify-between gap-3 pt-4 border-t border-rose-100">
                 <Link
                   href={`/student/subject/${item.subject_id}/type/${item.q_type}`}
-                  className="text-sm font-semibold text-primary hover:text-purple-dark inline-flex items-center gap-2"
+                  className="text-sm font-bold text-primary hover:text-primary-dark inline-flex items-center gap-1 transition-colors"
                 >
-                  <Image src="/icon.png" alt="Open" width={50} height={50} />
-                  Open question set
+                  Open
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
                 </Link>
                 <button
                   onClick={() => removeBookmark(item.id)}
-                  className="text-sm px-3 py-1.5 rounded-lg border border-primary-lighter text-gray-700 hover:border-primary"
+                  className="text-sm px-3 py-1.5 rounded-lg border border-red-200 text-red-600 hover:bg-red-50 font-bold transition-all"
                 >
                   Remove
                 </button>

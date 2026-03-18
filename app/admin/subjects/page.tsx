@@ -152,9 +152,9 @@ export default function SubjectsPage() {
     setUploadStatus('')
 
     try {
-      const result = await bulkUploadQuestionsAction(user.id, selectedSubjectId, jsonInput, true)
-      if (result.success) {
-        setUploadStatus(`✓ Uploaded ${result.data} questions!`)
+      const result = await bulkUploadQuestionsAction(user.id, selectedSubjectId, jsonInput, false)
+      if (result.success && result.data) {
+        setUploadStatus(`✓ Uploaded ${result.data.uploadedCount} questions!`)
         setJsonInput('')
         setPreview(null)
         // Reload subjects

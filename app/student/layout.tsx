@@ -44,42 +44,6 @@ export default function StudentLayout({
         </svg>
       ),
     },
-    {
-      href: '/student/questions',
-      label: 'Questions',
-      icon: (
-        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.596-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
-    },
-    {
-      href: '/student/case-studies',
-      label: 'Case Studies',
-      icon: (
-        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
-    },
-    {
-      href: '/student/bookmarks',
-      label: 'Bookmarks',
-      icon: (
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
-        </svg>
-      ),
-    },
-    {
-      href: '/student/performance',
-      label: 'Performance',
-      icon: (
-        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-        </svg>
-      ),
-    },
   ]
 
   if (isLoading) {
@@ -110,13 +74,7 @@ export default function StudentLayout({
 
   return (
     <div
-      className="flex flex-col min-h-screen bg-cover bg-center bg-fixed"
-      style={{
-        backgroundImage: "url(/tulip3.jpg)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
+      className="flex flex-col min-h-screen bg-white"
     >
       {/* Desktop Header */}
       <header className="sticky top-0 bg-white/70 backdrop-blur-xl border-b border-white/30 z-40 shadow-sm">
@@ -131,7 +89,7 @@ export default function StudentLayout({
               />
             </div>
             <div className="hidden sm:block">
-              <h1 className="font-bold text-lg text-purple-dark leading-tight">CA QBank</h1>
+              <h1 className="font-bold text-lg text-primary leading-tight">CA QBank</h1>
               <p className="text-xs text-gray-600">Student Portal</p>
             </div>
           </Link>

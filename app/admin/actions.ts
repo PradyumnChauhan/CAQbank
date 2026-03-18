@@ -153,6 +153,13 @@ export async function bulkUploadQuestionsAction(
   replaceExisting: boolean = true
 ): Promise<ActionResult<{ uploadedCount: number; invalidCount: number }>> {
   try {
+    console.log('[bulkUploadQuestionsAction] Start upload:', {
+      userId,
+      subjectId,
+      jsonLength: jsonString.length,
+      replaceExisting,
+    })
+
     const isAdmin = await validateAdminRole(userId)
     if (!isAdmin) {
       return { success: false, error: 'Only admins can upload questions' }
@@ -163,7 +170,18 @@ export async function bulkUploadQuestionsAction(
     }
 
     // Parse and normalize JSON
+    console.log('[bulkUploadQuestionsAction] Normalizing JSON...')
     const { valid, invalidCount } = await normalizeAndValidateJSON(jsonString)
+
+    console.log('[bulkUploadQuestionsAction] JSON normalized:', {
+      validCount: valid.length,
+      invalidCount,
+      sampleQuestions: valid.slice(0, 3).map((q) => ({
+        q_id: q.q_id,
+        q_type: q.q_type,
+        optionCount: q.options_json.length,
+      })),
+    })
 
     if (valid.length === 0) {
       return { success: false, error: 'No valid questions found in JSON' }
@@ -173,12 +191,14 @@ export async function bulkUploadQuestionsAction(
 
     // Optionally delete existing questions
     if (replaceExisting) {
+      console.log('[bulkUploadQuestionsAction] Deleting existing questions...')
       const { error: deleteError } = await supabase
         .from('questions')
         .delete()
         .eq('subject_id', subjectId)
 
       if (deleteError) throw deleteError
+      console.log('[bulkUploadQuestionsAction] Existing questions deleted')
     }
 
     // Insert questions in chunks
@@ -188,9 +208,26 @@ export async function bulkUploadQuestionsAction(
       created_by: userId,
     }))
 
+    console.log('[bulkUploadQuestionsAction] Inserting', rows.length, 'questions in chunks...')
+    console.log('[bulkUploadQuestionsAction] First row sample:', JSON.stringify({
+      q_id: rows[0]?.q_id,
+      q_type: rows[0]?.q_type,
+      options_json: rows[0]?.options_json,
+      options_json_length: rows[0]?.options_json?.length,
+      options_json_type: typeof rows[0]?.options_json,
+      keys: Object.keys(rows[0] || {}).sort(),
+    }, null, 2))
+
     const chunkSize = 200
     for (let start = 0; start < rows.length; start += chunkSize) {
       const chunk = rows.slice(start, start + chunkSize)
+      console.log(`[bulkUploadQuestionsAction] Inserting chunk: ${start}-${start + chunk.length}`)
+      console.log('[bulkUploadQuestionsAction] Chunk[0] data:', JSON.stringify({
+        q_id: chunk[0]?.q_id,
+        options_json: chunk[0]?.options_json,
+        hasOptionsField: 'options_json' in chunk[0],
+      }, null, 2))
+      
       const { error: insertError } = await supabase.from('questions').insert(chunk)
 
       if (insertError) {
@@ -198,6 +235,11 @@ export async function bulkUploadQuestionsAction(
         throw insertError
       }
     }
+
+    console.log('[bulkUploadQuestionsAction] Upload complete:', {
+      uploadedCount: valid.length,
+      invalidCount,
+    })
 
     return {
       success: true,
